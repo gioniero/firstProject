@@ -1,0 +1,14 @@
+{% extends "navbar.html" %}
+{% block title %}FlaskAsk{% endblock %}
+{% block page_content %}
+<div class="container">
+    <div>
+        <h3 class="title">Your profile</h3>
+        <p>Username: {{user.username}}</p>
+        <p>Email: {{user.email}}</p>
+        <p>User ID: {{user.id}}</p>
+    </div>
+</div>
+
+
+{% endblock %}
